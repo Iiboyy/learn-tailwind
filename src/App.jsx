@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import Logo from "./assets/img/Logo.png";
 import Home from "./assets/img/Home.png";
-import AboutImage from "./assets/img/About.png"; // Ganti dengan gambar about kamu
+import AboutImage from "./assets/img/About.png"; 
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
