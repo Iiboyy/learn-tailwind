@@ -143,7 +143,7 @@ function App() {
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
                       <div className="flex justify-center order-2 lg:order-1">
                         <div className="relative w-full max-w-sm sm:max-w-md">
-                          <div className="absolute -inset-3 sm:-inset-4 bg-gradient-to-r from-red-600 to-orange-600 rounded-2xl opacity-20 blur"></div>
+                          <div className="absolute -inset-3 sm:-inset-4 bg-linear-to-r from-red-600 to-orange-600 rounded-2xl opacity-20 blur"></div>
                           <div className="relative">
                             <img
                               src={AboutImage}
